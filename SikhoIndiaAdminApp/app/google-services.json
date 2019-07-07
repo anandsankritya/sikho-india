@@ -1,0 +1,85 @@
+{
+  "project_info": {
+    "project_number": "663217880247",
+    "firebase_url": "https://sikhoindia-4742d.firebaseio.com",
+    "project_id": "sikhoindia-4742d",
+    "storage_bucket": "sikhoindia-4742d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:663217880247:android:9a4a177cb5202dab",
+        "android_client_info": {
+          "package_name": "com.anandsankritya.sikhoindia"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "663217880247-pedohrqp2u0nfm7iqueo8u5ggiq8t7n0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.anandsankritya.sikhoindia",
+            "certificate_hash": "fd0bb4f8f49a4572851156e048e240ecdd43d428"
+          }
+        },
+        {
+          "client_id": "663217880247-p7vcftj33prhhs268l3ue45hdika22c7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBcQNbSkT0ouwY7byXpLqnbWdt7Kb19bqE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "663217880247-p7vcftj33prhhs268l3ue45hdika22c7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:663217880247:android:eb535da0a03da87e",
+        "android_client_info": {
+          "package_name": "com.anandsankritya.sikhoindiaadminapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "663217880247-kdlsipvg3k4d0vr7pgojb4lrqii27avs.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.anandsankritya.sikhoindiaadminapp",
+            "certificate_hash": "fd0bb4f8f49a4572851156e048e240ecdd43d428"
+          }
+        },
+        {
+          "client_id": "663217880247-p7vcftj33prhhs268l3ue45hdika22c7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBcQNbSkT0ouwY7byXpLqnbWdt7Kb19bqE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "663217880247-p7vcftj33prhhs268l3ue45hdika22c7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="16dp"
+    android:visibility="invisible"
+    android:id="@+id/view"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textHint"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:text="Choose Cetogery"
+        android:textAlignment="center"/>
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        app:layout_constraintTop_toBottomOf="@id/textHint"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent">
+    </Spinner>
+
+    <AutoCompleteTextView
+        android:layout_marginTop="16dp"
+        android:id="@+id/autoTextView"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        app:layout_constraintTop_toBottomOf="@id/spinner"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:textAlignment="center"
+        android:hint="Enter playlist title or select existing..."/>
+
+    <EditText
+        android:layout_marginTop="16dp"
+        android:id="@+id/et"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        app:layout_constraintTop_toBottomOf="@id/autoTextView"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:hint="Enter video Url..."
+        android:textAlignment="center"
+        android:inputType="textWebEditText"/>
+
+    <EditText
+        android:layout_marginTop="16dp"
+        android:id="@+id/etVideoTitle"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        app:layout_constraintTop_toBottomOf="@id/et"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:hint="Enter video title..."
+        android:textAlignment="center"
+        android:inputType="text"/>
+
+
+    <Button
+        android:id="@+id/btn"
+        app:layout_constraintTop_toBottomOf="@id/et"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add Video"/>
+
+</android.support.constraint.ConstraintLayout>
